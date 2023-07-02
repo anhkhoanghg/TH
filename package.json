@@ -1,0 +1,17 @@
+{
+  "name": "th",
+  "version": "1.0.0",
+  "description": "Financial Analysis",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "anhkhoanghg",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "1.2.1",
+    "tailwindcss": "^3.3.2"
+  }
+}
